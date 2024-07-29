@@ -2,7 +2,7 @@
 @section('main_content')
 <!-- Content -->
 <div class="container-fluid flex-grow-1 container-p-y">
-    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Product/</span>Product List</h4>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Mentor/</span>Mentorship Request List</h4>
 
     <div class="card">
         <div class="table-responsive text-nowrap m-3">

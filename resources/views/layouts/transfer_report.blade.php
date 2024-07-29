@@ -2,7 +2,7 @@
 @section('main_content')
 <!-- Content -->
 <div class="container-fluid flex-grow-1 container-p-y">
-    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Operation/</span>Operation List</h4>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Mentor/</span>Mentorship Report</h4>
 
     <div class="card">
         @if(session('success'))
@@ -15,13 +15,12 @@
             <thead>
               <tr class="text-nowrap">
                 <th>#</th>
-                <th>Player name</th>
+                <th>Student name</th>
                 <th>Telephone</th>
                 <th>Email</th>
-                <th>From Club</th>
-                <th>Current Club</th>
-                <th>Transaction Price</th>
-                <th>Paid Price</th>
+                <th>Mentor Name</th>
+                <th>Assigned Date</th>
+                <th>Status</th>
               </tr>
             </thead>
             <tbody>
@@ -34,10 +33,9 @@
                     <td>{{$operation->player}}</td>
                     <td>{{$operation->telephone}}</td>
                     <td>{{$operation->email}}</td>
-                    <td>{{$operation->club}}</td>
-                    <td>{{$operation->club}}</td>
-                    <td>{{number_format($operation->cost)}}</td>
-                    <td>{{number_format($operation->paid_cost)}}</td>
+                    <td>Kanyandekwe</td>
+                    <td>12/01/2024</td>
+                    <td>Active</td>
                 </tr>
                 @endforeach
             </tbody>

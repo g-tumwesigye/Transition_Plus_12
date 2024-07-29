@@ -2,7 +2,7 @@
 @section('main_content')
 <!-- Content -->
 <div class="container-fluid flex-grow-1 container-p-y">
-    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Product/</span>Product List</h4>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Mentor/</span>Mentorship Request List</h4>
 
     <div class="card">
         <div class="table-responsive text-nowrap m-3">
@@ -10,11 +10,11 @@
             <thead>
               <tr class="text-nowrap">
                 <th>#</th>
-                <th>Player name</th>
+                <th>Student name</th>
                 <th>Telephone</th>
                 <th>Email</th>
-                <th>Current Club</th>
-                <th>Date of Birth</th>
+                <th>Current Mentor</th>
+                <th>Requested Mentor</th>
                 <th>Status</th>
                 <th>Action</th>
               </tr>
@@ -25,9 +25,9 @@
                 <td>Osam</td>
                 <td>250780000001</td>
                 <td>example@mail.test</td>
-                <td>Rayon Sport</td>
-                <td>02/01/2000</td>
-                <td>Active</td>
+                <td>None</td>
+                <td>Niitegeka</td>
+                <td>Pending</td>
                 <td>
                     <i class="text-danger">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
