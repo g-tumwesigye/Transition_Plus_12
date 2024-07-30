@@ -24,7 +24,7 @@ git clone https://github.com/g-tumwesigye/Transition_Plus_12.git
 Navigate into the project directory:
 
 ```bash
-cd your-laravel-project
+cd Transition_Plus_12
 ```
 
 ### 2. Install PHP Dependencies
